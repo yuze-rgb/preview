@@ -1,9 +1,11 @@
-# Website preview
+# Website previews
 
-Static website build for https://yuze-rgb.github.io/preview/.
+The web-hobbing/ folder contains the ready-to-publish website build.
 
-Enable GitHub Pages in Settings → Pages: Source = Deploy from a branch, Branch = main, Folder = / (root), then Save.
+Enable Settings → Pages → Deploy from a branch → main → / (root).
 
-This repository contains only the public website build and selected product images. The original product catalogue PDF, archives and source repository history are not included.
+Website address after deployment: https://yuze-rgb.github.io/preview/web-hobbing/
 
-To refresh, build the source project with `npm run build -- --base=/preview/`, run its `node scripts/check-public-assets.mjs` check, and copy only the resulting dist contents here. Do not copy the source repository .git directory or private files.
+Only public website assets are included. The original PDF catalogue, ZIP archives and source repository history are excluded.
+
+To update: build the source project with npm run build -- --base=/preview/web-hobbing/, run node scripts/check-public-assets.mjs, and copy only dist contents into web-hobbing/. Never copy private files or .git history.
